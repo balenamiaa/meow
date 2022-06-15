@@ -7,9 +7,9 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "meow.Shared", "meow.Shared\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{A3A63809-479B-467B-A426-662E1CCF3EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meow.Skia.Gtk", "meow.Skia.Gtk\meow.Skia.Gtk.csproj", "{3262BE2B-82B3-41C5-A0A4-DC17B445A381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "meow.Skia.Gtk", "meow.Skia.Gtk\meow.Skia.Gtk.csproj", "{3262BE2B-82B3-41C5-A0A4-DC17B445A381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meow.Windows", "meow.Windows\meow.Windows.csproj", "{F0F5C55E-1B79-4F88-BF84-E39945F21A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "meow.Windows", "meow.Windows\meow.Windows.csproj", "{F0F5C55E-1B79-4F88-BF84-E39945F21A97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
