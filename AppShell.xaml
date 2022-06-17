@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Chatter.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Chatter"
+    xmlns:helpers="clr-namespace:Chatter.Helpers"
+    BackgroundColor="#222831"
+    Title="def"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent Title="Chat Rooms"
+                      ContentTemplate="{DataTemplate local:ChatRoomsPage}"
+                      Route="main_page">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="MaterialIcons" 
+                                 Glyph="{x:Static helpers:IconFont.Home}" Size="36"
+                                 Color="WhiteSmoke">
+                </FontImageSource>
+            </ShellContent.Icon>
+        </ShellContent>
+        
+        <ShellContent Title="Settings"
+                      ContentTemplate="{DataTemplate local:SettingsPage}"
+                      Route="settings_page">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="MaterialIcons" 
+                                 Glyph="{x:Static helpers:IconFont.Settings}" Size="36"
+                                 Color="WhiteSmoke">
+                </FontImageSource>
+            </ShellContent.Icon>
+        </ShellContent>
+
+        <ShellContent Title="Account"
+                      ContentTemplate="{DataTemplate local:AccountPage}"
+                      Route="account_page">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="MaterialIcons" 
+                                 Glyph="{x:Static helpers:IconFont.Account_circle}" Size="36"
+                                 Color="WhiteSmoke">
+                </FontImageSource>
+            </ShellContent.Icon>
+        </ShellContent>
+    </TabBar>
+
+</Shell>

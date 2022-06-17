@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chatter.ChatRoomView">
+    <Frame>
+        <Grid ColumnDefinitions="64, *">
+            <Image Grid.Column="0" Source="{Binding Banner}"/>
+            <Grid Grid.Column="1" RowDefinitions="32, *" Margin="16, 0, 0, 0">
+                <Label Grid.Row="0" Text="{Binding Name}" FontSize="16"/>
+                <VerticalStackLayout Grid.Row="0" Margin="0, 18, 0, 0" Padding="1">
+                    <Rectangle Fill="White" HeightRequest="2"/>
+                    <Rectangle Fill="White" HeightRequest="2"/>
+                </VerticalStackLayout>
+                <Label Grid.Row="2" Text="{Binding Description}"/>
+            </Grid>
+        </Grid>
+    </Frame>
+</ContentView>

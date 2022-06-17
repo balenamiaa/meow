@@ -1,7 +1,0 @@
-{
-  "profiles": {
-    "meow.Windows": {
-      "commandName": "MsixPackage"
-    }
-  }
-}
